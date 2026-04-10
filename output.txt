@@ -1,0 +1,11 @@
+Script started on Fri Apr 10 17:05:45 2026
+]0;arafj@r1n43.darwin:~/CISC372_picProject[?1034h[arafj@r1n43 CISC372_picProject]$ ./image pic1.jpg edge
+Took 7 seconds
+]0;arafj@r1n43.darwin:~/CISC372_picProject[arafj@r1n43 CISC372_picProject]$ srun ./openmp pic1.jpg edge
+Took 6 seconds
+]0;arafj@r1n43.darwin:~/CISC372_picProject[arafj@r1n43 CISC372_picProject]$ srun ./pthreads pic1.jpg edge
+Took 6 seconds
+]0;arafj@r1n43.darwin:~/CISC372_picProject[arafj@r1n43 CISC372_picProject]$ exit
+exit
+
+Script done on Fri Apr 10 17:07:20 2026
